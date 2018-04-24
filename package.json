@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "coding-growth",
+  "description": "Informational website for the Coding Growth growth engineering community",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jared Silver <jared@jaredsilver.name>",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",

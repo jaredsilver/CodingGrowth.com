@@ -1,10 +1,15 @@
 import React from 'react'
 
-const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
-)
+class NotFoundPage extends React.Component {
+  componentWillMount() {
+    if(typeof window !== 'undefined') {
+      window.location.pathname = '/'
+    }
+  }
+
+  render() {
+    return <div>404: Page Not Found</div>
+  }
+}
 
 export default NotFoundPage
