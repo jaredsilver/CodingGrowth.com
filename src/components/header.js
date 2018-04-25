@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const Header = () => (
   <header>
-    TODO
+    <img id="logo" src="/logo.png" />
   </header>
 )
 
